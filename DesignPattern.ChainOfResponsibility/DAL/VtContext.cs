@@ -8,7 +8,7 @@ namespace DesignPattern.ChainOfResponsibility.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-N81IS28;database=designPattern1;integrated security=true");
+            optionsBuilder.UseSqlServer("server=.;database=designPattern1;integrated security=true");
         }
     }
 }
