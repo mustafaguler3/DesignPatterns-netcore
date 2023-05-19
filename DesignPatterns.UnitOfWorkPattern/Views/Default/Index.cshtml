@@ -1,0 +1,14 @@
+﻿@model CustomerViewModel
+
+<form method="post">
+    <label>Sender ID</label>
+    <input type="text" class="form-control" asp-for="SenderId"/>
+    <br/>
+    <label>Receiver ID</label>
+    <input type="text" class="form-control" asp-for="ReceiverId" />
+    <br/>
+    <label>Amount</label>
+    <input type="text" class="form-control" asp-for="Amount" />
+    <br/>
+    <button class="btn btn-success" type="submit">Send</button>
+</form>
